@@ -29,7 +29,7 @@ body {
   overflow: visible;
   position: sticky;
   left: 15px;
-  border: 1px solid rgb(82, 193, 245);
+  border: 2px solid rgb(12, 12, 12);
 }
 
 .headerNav {
@@ -45,5 +45,69 @@ body {
   font-style: normal;
 }
 .headerNav ul a {
-  color: rgb(82, 193, 245);
+  color: rgb(255, 255, 255);
+}
+.img-logo {
+  top: 40%;
+  left: 60%;
+  background: rgb(rgb(36, 130, 158), rgb(10, 10, 10), rgb(244, 244, 245));
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  margin: 0 auto;
+}
+.img-logo img {
+  width: 70%;
+  height: 60%;
+}
+.hero-section {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 70%;
+  height: 70vh;
+}
+.hero-section h1 {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  letter-spacing: 5px;
+  width: 100%;
+  color: azure;
+}
+.descripcion {
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin: 0 auto;
+  height: 800px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.descripcion p {
+  font-size: 25px;
+  line-height: 25px;
+  width: 50%;
+  font-style: oblique;
+}
+.descripcion p span {
+  color: rgb(143, 140, 140);
+}
+.descripcion a {
+  display: flex;
+  font-size: 25px;
+  gap: 15px;
+  font-style: oblique;
+  color: rgb(99, 8, 117);
+}
+.descripcion a:hover {
+  transition: 200ms;
+  color: blue;
 }
